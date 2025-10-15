@@ -1,9 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-// If the image is in /public/images
-// Use: src="/images/mine2.jpeg"
-// OR if it's inside src, uncomment the import below and use src={myPhoto}
-// import myPhoto from "../mine2.jpeg";
 
 const Hero = () => {
   return (
@@ -56,7 +52,7 @@ const Hero = () => {
         </motion.a>
       </motion.div>
 
-      {/* Profile Image with background blend */}
+      {/* Profile Image */}
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         whileInView={{ opacity: 1, scale: 1 }}
@@ -66,7 +62,7 @@ const Hero = () => {
       >
         <div className="relative">
           <motion.img
-            src="/images/mine3.png" // or src={myPhoto} if imported
+            src="/images/mine3.png" // ✅ Correct path for CRA public folder
             alt="ATL Profile"
             className="w-64 md:w-96 rounded-full object-cover mix-blend-soft-light shadow-[0_0_80px_rgba(168,85,247,0.25)]"
             animate={{
