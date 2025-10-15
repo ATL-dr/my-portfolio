@@ -61,29 +61,93 @@ const About = () => {
             Hey, I’m{" "}
             <span className="font-semibold text-purple-600 dark:text-purple-400">
               ATL
-            </span>
-            — a passionate front-end developer who believes the best digital
-            experiences come from the perfect blend of{" "}
-            <span className="font-semibold text-pink-500">design, motion</span>,
-            and{" "}
-            <span className="font-semibold text-purple-500">
-              purposeful code
-            </span>
-            . My goal is to craft user interfaces that feel alive, intuitive,
-            and memorable.
+            </span>{" "}
+            — a passionate MERN Stack and front-end developer who believes the
+            best digital experiences come from the perfect blend of design,
+            motion, and purposeful code. My goal is to craft user interfaces
+            that feel alive, intuitive, and memorable.
           </p>
 
           <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
             I specialize in building modern, high-performance interfaces using{" "}
-            <strong>React.js</strong>, <strong>Tailwind CSS</strong>, and{" "}
-            <strong>Framer Motion</strong>. Each project I work on focuses on
-            simplicity, elegance, and the art of seamless interactivity.
+            <strong className="font-semibold text-purple-600 dark:text-purple-400">
+              React.js
+            </strong>
+            ,{" "}
+            <strong className="font-semibold text-purple-600 dark:text-purple-400">
+              Tailwind CSS
+            </strong>
+            , and{" "}
+            <strong className="font-semibold text-purple-600 dark:text-purple-400">
+              Framer Motion
+            </strong>
+            , while also developing powerful full-stack applications with{" "}
+            <strong className="font-semibold text-purple-600 dark:text-purple-400">
+              Node.js
+            </strong>
+            ,{" "}
+            <strong className="font-semibold text-purple-600 dark:text-purple-400">
+              Express
+            </strong>
+            , and{" "}
+            <strong className="font-semibold text-purple-600 dark:text-purple-400">
+              MongoDB
+            </strong>
+            .
           </p>
 
           <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
-            Outside of coding, I’m constantly exploring new UI patterns, fine-tuning
-            animations, and studying product design to understand how technology
-            can emotionally connect with users. 🚀
+            Outside of coding, I love exploring new UI patterns, fine-tuning
+            animations, and diving into product design to understand how
+            technology can emotionally connect with users.
+          </p>
+
+          <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
+            My core skills include{" "}
+            <strong className="font-semibold text-purple-600 dark:text-purple-400">
+              HTML
+            </strong>
+            ,{" "}
+            <strong className="font-semibold text-purple-600 dark:text-purple-400">
+              CSS
+            </strong>
+            ,{" "}
+            <strong className="font-semibold text-purple-600 dark:text-purple-400">
+              JavaScript
+            </strong>
+            ,{" "}
+            <strong className="font-semibold text-purple-600 dark:text-purple-400">
+              React
+            </strong>
+            ,{" "}
+            <strong className="font-semibold text-purple-600 dark:text-purple-400">
+              Tailwind
+            </strong>
+            ,{" "}
+            <strong className="font-semibold text-purple-600 dark:text-purple-400">
+              Vite
+            </strong>
+            ,{" "}
+            <strong className="font-semibold text-purple-600 dark:text-purple-400">
+              Node.js
+            </strong>
+            ,{" "}
+            <strong className="font-semibold text-purple-600 dark:text-purple-400">
+              Express
+            </strong>
+            ,{" "}
+            <strong className="font-semibold text-purple-600 dark:text-purple-400">
+              MongoDB
+            </strong>
+            ,{" "}
+            <strong className="font-semibold text-purple-600 dark:text-purple-400">
+              GitHub
+            </strong>
+            , and{" "}
+            <strong className="font-semibold text-purple-600 dark:text-purple-400">
+              database management
+            </strong>
+            . 🚀
           </p>
         </motion.div>
 
@@ -100,7 +164,9 @@ const About = () => {
             "Tailwind CSS",
             "Framer Motion",
             "Node.js",
-            "REST APIs",
+            "Express",
+            "MongoDB",
+            "MERN Stack",
             "UI/UX Design",
             "Performance Optimization",
             "Clean Architecture",

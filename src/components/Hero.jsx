@@ -1,5 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
+// If the image is in /public/images
+// Use: src="/images/mine2.jpeg"
+// OR if it's inside src, uncomment the import below and use src={myPhoto}
+// import myPhoto from "../mine2.jpeg";
 
 const Hero = () => {
   return (
@@ -10,8 +14,8 @@ const Hero = () => {
                  dark:from-gray-900 dark:via-gray-950 dark:to-gray-900 
                  text-gray-900 dark:text-white transition-colors duration-700 overflow-hidden"
     >
-      {/* Soft glowing orbs for depth */}
-      <div className="absolute top-32 left-1/3 w-72 h-72 bg-purple-400/30 dark:bg-purple-600/20 blur-3xl rounded-full animate-pulse-slow"></div>
+      {/* Soft glowing background accents */}
+      <div className="absolute top-32 left-1/3 w-72 h-72 bg-purple-400/20 dark:bg-purple-600/20 blur-3xl rounded-full animate-pulse-slow"></div>
       <div className="absolute bottom-20 right-1/4 w-80 h-80 bg-pink-400/20 dark:bg-pink-700/20 blur-3xl rounded-full animate-pulse-slow"></div>
 
       {/* Text Content */}
@@ -33,7 +37,7 @@ const Hero = () => {
         <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
           I’m a passionate{" "}
           <span className="font-semibold text-purple-600 dark:text-purple-400">
-            React Developer
+            MERN-STACK Developer
           </span>{" "}
           who loves building beautiful, interactive, and high-performance web
           applications — blending design and functionality into meaningful user
@@ -52,7 +56,7 @@ const Hero = () => {
         </motion.a>
       </motion.div>
 
-      {/* Illustration / Icon */}
+      {/* Profile Image with background blend */}
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         whileInView={{ opacity: 1, scale: 1 }}
@@ -62,9 +66,9 @@ const Hero = () => {
       >
         <div className="relative">
           <motion.img
-            src="https://cdn-icons-png.flaticon.com/512/921/921071.png"
-            alt="Developer Illustration"
-            className="w-64 md:w-96 drop-shadow-2xl"
+            src="/images/mine3.png" // or src={myPhoto} if imported
+            alt="ATL Profile"
+            className="w-64 md:w-96 rounded-full object-cover mix-blend-soft-light shadow-[0_0_80px_rgba(168,85,247,0.25)]"
             animate={{
               y: [0, -10, 0],
             }}
@@ -74,8 +78,9 @@ const Hero = () => {
               ease: "easeInOut",
             }}
           />
-          {/* Soft glow behind the image */}
-          <div className="absolute inset-0 bg-purple-400/20 dark:bg-purple-700/20 blur-3xl rounded-full -z-10"></div>
+
+          {/* Subtle glow layer */}
+          <div className="absolute inset-0 bg-gradient-to-tr from-purple-400/20 to-pink-400/20 blur-3xl rounded-full -z-10"></div>
         </div>
       </motion.div>
     </section>
