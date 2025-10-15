@@ -41,7 +41,7 @@ const About = () => {
             className="w-40 h-40 md:w-52 md:h-52 rounded-full object-cover border-4 border-purple-500 shadow-lg"
           />
           <div className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 bg-purple-600 text-white px-5 py-2 rounded-full text-sm font-medium shadow-lg">
-            React Developer ⚡
+             MERN-STACK Developer ⚡
           </div>
         </motion.div>
 
